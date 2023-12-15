@@ -1,0 +1,18 @@
+body{
+background-color:red;
+}
+img{
+          width:190px%;
+          height:160px%;
+          padding:10px 12px;
+          margin: 0px 10px 10px 1px;
+}
+.grid-card{
+  display: grid;
+  gap: 50px 100px;
+}
+
+.grid-container{
+  display: grid;
+  gap: 50px 100px;
+}
