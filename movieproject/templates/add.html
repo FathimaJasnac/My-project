@@ -2,10 +2,10 @@
 {% block body %}
 <form method="post" enctype="multipart/form-data">
   {% csrf_token %}
-    <input type="text" name="name" placeholder="Enter your movie name"><br>
-    <input type="text" name="desc" placeholder="Enter the movie description"><br>
-    <input type="text" name="year" placeholder="Enter your movie year"><br>
-    <input type="file" name="img"><br>
+    <input class="form-control form-control-lg" type="text" name="name" placeholder="Enter your movie name"><br>
+    <input class="form-control form-control-lg" type="text" name="desc" placeholder="Enter the movie description"><br>
+    <input class="form-control form-control-lg" type="text" name="year" placeholder="Enter your movie year"><br>
+    <input class="form-control form-control-lg" type="file" name="img"><br>
     <input type="submit">
 </form>
 {% endblock %}
